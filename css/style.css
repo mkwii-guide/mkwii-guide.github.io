@@ -1,0 +1,52 @@
+:root {
+    --mkwii: #28acf3
+} body {
+    background: url(/img/checkerboard-white.png);
+    font-family: "Segoe UI", "Source Sans Pro", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Apple Color Emoji, Segoe UI Emoji;;
+    margin-left: auto;
+    margin-top: 1em;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    transition: all 0.1s
+} .container {
+	background-color: #fff;
+	border: 1px solid var(--mkwii);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+	max-width: 800px;
+	margin: 0 auto
+} #top {
+    background: radial-gradient(var(--mkwii) 0%, #28acf300 40%);
+    border-bottom: 1px solid var(--mkwii)
+} h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-family: Verdana, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    text-align: center;
+    text-shadow: 2px 0 0 #000,-2px 0 0 #000,0 2px 0 #000,0 -2px 0 #000,1px 1px #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000
+} #footer {
+    background: #eaeaea;
+    box-shadow: inset 0px 1px 1px 0px rgba(73,73,73,0.1);
+    color: #4a4a4a;
+    padding: 5px;
+    text-align: center;
+    font-size: small
+} p {
+    margin: 10px
+} a {
+    text-decoration: none
+} a:hover {
+    text-decoration: underline
+} ol, ul {
+    margin-top: -10px
+} li {
+    margin-left: -10px;
+    padding-right: 5px
+} ::marker {
+    font-size: 12px
+} @media only screen and (max-width: 800px) {
+    body {
+        margin-top: 0;
+        padding: 0;
+        transition: all 0.1s
+    }
+}
